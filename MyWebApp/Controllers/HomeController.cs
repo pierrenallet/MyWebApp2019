@@ -8,7 +8,6 @@ namespace MyWebApp.Controllers
 {
 	public class HomeController : Controller
 	{
-		xxx
 		public ActionResult Error()
 		{
 			throw new InvalidOperationException("SomeData");
